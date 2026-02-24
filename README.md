@@ -1,10 +1,13 @@
-# Protein-Structure-Contact-Map-prediction
+# 🧬 Protein Structure Contact Map Prediction (Big Data)
 
-Protein Contact Prediction with Spark (Closed Competition - ECBDL'14)
-This project tackled protein structure prediction using Spark for Big Data in the (now closed) ECBDL'14 Self-deployment track. The goal was to predict residue-residue contacts within proteins, a crucial step in understanding protein folding and function.
+A bioinformatics engineering project that explores the application of Apache Spark for large-scale protein structure prediction. By implementing parallel processing techniques and a MapReduce paradigm, this project drastically reduces the computational time required to predict complex protein contact maps.
 
-Large Dataset: Analyzed 32 million protein instances with 631 features using Spark's distributed processing capabilities.
-Imbalanced Classes: Handled the highly imbalanced data (98% negative examples) to accurately predict both contacting and non-contacting residues.
+## 🚀 Key Features
+- **Distributed Computing (Apache Spark):** Utilizes RDDs (Resilient Distributed Datasets) to handle massive genomic datasets.
+- **Divide and Conquer Architecture:** Breaks down complex protein folding predictions into parallelizable tasks.
+- **Ensemble Machine Learning:** Aggregates multiple predictive models to achieve higher accuracy on biological structures.
 
-
-Link to download Data : http://cruncher.ico2s.org/bdcomp/
+## 🛠️ Tech Stack
+- Python / Jupyter Notebooks
+- Apache Spark (PySpark)
+- Bioinformatics Data Parsing
